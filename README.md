@@ -2,7 +2,7 @@
 Generates safe, strong passwords and saves them locally on your computer.
 
 ## Information
-This was made to help you improve your security. A lot of people (including celebrities) are being hacked every day, and this is becoming a problem.
+This was made to help you improve your security. A lot of people (including celebrities) get hacked every day, and this is becoming a problem.
 Ava Rose (a famous TikToker) was recently hacked and I asked myself "how?". Well, this action inspired me and made me take a deeper look at why and how she was hacked. Not only did her Instagram account get hacked, but also her Snapchat.
 ![](https://i.imgur.com/bHzYpJg.png)<br/><br/>
 You might ask yourself, what consequences could this kind of a hack lead to? Well, this made the hacker able to see all her private DM's and also capable of contacting any of her friends using her account, view her private photos, shout himself out (the hacker gained 9K followers in 12h) and more.
