@@ -1,5 +1,5 @@
 # Strong-Password-Generator
-Generates safe, strong passwords and saves them locally on your computer.
+Generates strong, safe passwords and saves them locally on your computer.
 
 ## Information
 This was made to help you improve your security. A lot of people (including celebrities) get hacked every day, and this is becoming a problem.
