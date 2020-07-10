@@ -1,5 +1,5 @@
 # Strong-Password-Generator
-Generates safe & strong passwords and saves them locally on your computer.
+Generates safe, strong passwords and saves them locally on your computer.
 
 ## Information
 This was made to help you improve your security. A lot of people (including celebrities) are being hacked every day, and this is becoming a problem.
@@ -15,7 +15,9 @@ As the hacker got access to both her Instagram- and Snapchat account, I'm sure w
 - Network Monitoring — capture network traffic. You should never use a public Wi-Fi in e.g. airports, cafés or restaurants if you care about your security. However, if you choose to connect to a public Wi-Fi then you should be careful and make sure you don't log in to any website/application or send sensitive information. That is simply because viewing network traffic is accessible by anyone who has the the correct tools and there are several tutorials of this online.
 - Password Guessing — you can brute force and make the process quicker but if you have enough information of this person (e.g. date of birth, pets, school and interests) it would most likely only take a few tries. A lot of people tend to use the password form: {Name}{Year of Birth} as it is easy to remember and it's static unlike your age that increases every year. That is exactly why you should use a password generator like [this](https://github.com/zoony1337/Strong-Password-Generator/blob/master/main.py).
 - Recovery Codes — brute force recovery codes. This is often used if you know you target has an "unbruteforcable" password. Most websites/applications have a "Forgot password?" option which you can use to enter your recovery code in case of a forgotten password. If the actual password isn't their pet's name for instance, there is a chance the recovery code is.
-- ...
+- Database Dumping — access a database and reveal a detailed record of tables. You can do this on weak websites you are sure the user has registered on, if they use the same password on other websites/applications the chances are high that the hacker gets access to multiple accounts. That is why you should never use the same password on multiple websites. There are a lot of tutorials online on how to do dump databases, but you should also be aware that the passwords would most likely be encrypted. You would have to find the correct format and decrypt the password unless they're using a format like Bcrypt (afaik it's impossible to decrypt).
+- Database leaks — dumped databases that have been leaked. You can use something like [this](https://github.com/zoony1337/Email-to-Password) to detect if the email/password has been leaked. If it has, you can try to find the leak and filter out your target.
+- Physical Action — if you know the target in real life or somehow get access to the person's phone/computer you can view saved passwords.
 
 I hope you learned something new today and I think we should all use password generators as it decreases the risks of being hacked. I'm aware that people can use this for bad and illegal purposes. I am not accountable for anything you get into, this was just a speedrun to demonstrate how hacking accounts can be done.
 
