@@ -1,14 +1,15 @@
 from os import system
 from time import sleep
 from random import choice
-from string import ascii_letters, digits
+from string import ascii_letters, digits, punctuation
 
 system('title [Password Generator]')
 clear = lambda: system('cls')
 clear()
 
 while True:
-    while True:
+    bypassed = False
+    while not bypassed:
         try:
             amount = int(input('Amount of characters: '))
         except ValueError:
@@ -16,10 +17,10 @@ while True:
             sleep(2)
             clear()
             continue
-        break
+        bypassed = True
 
     note = str(input('Note: '))
-    password = ''.join(choice(ascii_letters + digits + '!"#¤%&/()=?`*^@£$€{[]}\\,.-_—<>§~+|•') for _ in range(amount))
+    password = ''.join(choice(ascii_letters + digits + punctuation + '¤£€—§•') for _ in range(amount))
     print('> Generated Password: %s' % (password))
     with open('Passwords.txt', 'a', encoding='UTF-8') as f:
         f.write('Password: %s | Note: %s\n' % (password, note))
