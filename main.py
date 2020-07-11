@@ -3,13 +3,7 @@ from time import sleep
 from random import choice
 from string import ascii_letters, digits, punctuation
 
-
-def clear():
-    system('cls')
-
-
-system('title [Password Generator]')
-clear()
+system('cls && title [Password Generator]')
 
 while True:
     bypassed = False
@@ -19,7 +13,7 @@ while True:
         except ValueError:
             print('> Please input a digit.')
             sleep(2)
-            clear()
+            system('cls')
             continue
         bypassed = True
 
