@@ -3,10 +3,12 @@ from time import sleep
 from random import choice
 from string import ascii_letters, digits, punctuation
 
-system('title [Password Generator]')
 
 def clear():
     system('cls')
+
+
+system('title [Password Generator]')
 clear()
 
 while True:
