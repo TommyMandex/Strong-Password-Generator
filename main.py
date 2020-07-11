@@ -4,7 +4,9 @@ from random import choice
 from string import ascii_letters, digits, punctuation
 
 system('title [Password Generator]')
-clear = lambda: system('cls')
+
+def clear():
+    system('cls')
 clear()
 
 while True:
@@ -20,7 +22,9 @@ while True:
         bypassed = True
 
     note = str(input('Note: '))
-    password = ''.join(choice(ascii_letters + digits + punctuation + '¤£€—§•') for _ in range(amount))
+    password = ''.join(choice(
+        ascii_letters + digits + punctuation + '¤£€—§•'
+    ) for _ in range(amount))
     print('> Generated Password: %s' % (password))
     with open('Passwords.txt', 'a', encoding='UTF-8') as f:
         f.write('Password: %s | Note: %s\n' % (password, note))
