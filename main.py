@@ -21,7 +21,7 @@ while True:
     password = ''.join(choice(
         ascii_letters + digits + punctuation + '¤£€—§•'
     ) for _ in range(amount))
-    print('> Generated Password: %s' % (password))
+    print('> Generated Password: %s' % password)
     with open('Passwords.txt', 'a', encoding='UTF-8') as f:
         f.write('Password: %s | Note: %s\n' % (password, note))
     print()
